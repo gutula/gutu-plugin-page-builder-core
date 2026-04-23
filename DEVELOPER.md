@@ -38,6 +38,8 @@ Provides the builder-canvas and layout/block domain used to compose editable pag
 | Package Name | `@plugins/page-builder-core` |
 | Manifest ID | `page-builder-core` |
 | Display Name | Page Builder Core |
+| Domain Group | Operational Data |
+| Default Category | Content & Experience / Page Building |
 | Version | `0.1.0` |
 | Kind | `app` |
 | Trust Tier | `first-party` |
@@ -196,6 +198,7 @@ console.log("action", composeLayoutAction.id);
 - No dedicated integration test lane is exported in this repo today; validation currently leans on build, lint, typecheck, and test lanes.
 - The plugin owns durable data state, but it does not yet ship a dedicated migration verification lane in this repo.
 - No standalone plugin-owned event, job, or workflow catalog is exported yet; compose it through actions, resources, and the surrounding Gutu runtime.
+- The repo does not yet export a domain parity catalog with owned entities, reports, settings surfaces, and exception queues.
 
 ### Recommended next
 
