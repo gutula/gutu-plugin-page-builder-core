@@ -54,6 +54,11 @@ Provides the builder-canvas and layout/block domain used to compose editable pag
 | Field | Value |
 | --- | --- |
 | Depends On | `auth-core`, `org-tenant-core`, `role-policy-core`, `audit-core` |
+| Recommended Plugins | None |
+| Capability Enhancing | None |
+| Integration Only | None |
+| Suggested Packs | None |
+| Standalone Supported | Yes |
 | Requested Capabilities | `ui.register.admin`, `api.rest.mount`, `data.write.page-builder` |
 | Provides Capabilities | `page-builder.layouts` |
 | Owns Data | `page-builder.layouts` |
